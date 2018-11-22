@@ -1,7 +1,12 @@
 # Deep Virtual Try-on with Clothes Transform
 Source code for paper "Deep Virtual Try-on with Clothes Transform"
-![image](https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/introduction.png)
-## Step1: CAGAN ##
+<img height="300" src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/introduction.png">
+
+## Overall Architecture
+<img height="500" src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/All.png">
+
+## Step1: CAGAN 
+<img height="200" src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/CAGAN.png">
 
 ### code and data ###
 * Training:  `CAGAN.py`
@@ -64,6 +69,7 @@ python Testing_with_fixed_data.py
 
 
 ## Step2: Segmentation ##
+<img height="200" src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/segmentation.png">
 
 ### code ###
 https://github.com/Engineering-Course/LIP_SSL
@@ -76,6 +82,7 @@ https://github.com/Engineering-Course/LIP_SSL
 
 
 ## Step3: Transform ##
+<img height="100" src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/warping.png">
 
 ### code and data ###
 
@@ -118,6 +125,13 @@ python Testing_unet.py
 
 
 ## Step4: Combination ##
+<img height="200" src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/combine.png">
 
 ### code ###
 `Combine_image.m`
+
+## Results
+<img src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/result1.png">
+<img src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/result2.png">
+<img src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/result3.png">
+<img src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/condition.png">
