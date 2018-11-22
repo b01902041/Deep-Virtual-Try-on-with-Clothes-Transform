@@ -1,6 +1,6 @@
 # Deep Virtual Try-on with Clothes Transform
 Source code for paper "Deep Virtual Try-on with Clothes Transform"
-
+![image](https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/introduction.png)
 ## Step1: CAGAN ##
 
 ### code and data ###
