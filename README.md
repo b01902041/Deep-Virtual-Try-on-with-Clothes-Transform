@@ -5,6 +5,12 @@ Source code for paper "Deep Virtual Try-on with Clothes Transform"
 ## Overall Architecture
 <img height="500" src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/All.png">
 
+## Dependencies
+Install dependencies using pip.
+```shell
+pip install -r requirements.txt
+```
+
 ## Step1: CAGAN 
 <img height="200" src="https://github.com/b01902041/Deep-Virtual-Try-on-with-Clothes-Transform/blob/master/readme_img/CAGAN.png">
 
